@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.Instant;
 
 @RestController
-@RequestMapping(path = "/extract")
+@RequestMapping(path = "/extractor")
 public class DataExtractorController {
 
     private final DataExtractorService dataExtractorService;
